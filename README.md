@@ -122,7 +122,7 @@ NODE_ENV=development
 Seed the database with demo data:
 
 ```bash
-npm run seed
+npm run seed (to seed data)
 ```
 
 Start the backend:
