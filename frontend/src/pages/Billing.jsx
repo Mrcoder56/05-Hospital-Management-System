@@ -42,7 +42,8 @@ export default function Billing() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Billing & Invoices</h1>
-          <p className="text-gray-500 text-sm mt-1">{total} total invoices</p>
+          <p className="text-gray-500 text-sm mt-1">{total} Total I
+            nvoices</p>
         </div>
         <Link to="/billing/new" className="btn-primary"><PlusIcon className="w-5 h-5" /> New Invoice</Link>
       </div>
