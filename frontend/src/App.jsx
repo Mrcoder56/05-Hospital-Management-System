@@ -59,7 +59,7 @@ export default function App() {
       <AuthProvider>
         <AppRoutes />
         <Toaster position="top-right" toastOptions={{
-          duration: 4000,
+          duration: 4000.0,
           style: { background: '#363636', color: '#fff' },
           success: { style: { background: '#059669' } },
           error: { style: { background: '#dc2626' } }
